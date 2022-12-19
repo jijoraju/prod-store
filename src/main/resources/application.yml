@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: jijoraju
+    username: root
+    url: jdbc:mysql://localhost/e-commerce?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
